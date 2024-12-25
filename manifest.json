@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle Modal",
+  "version": "1.0",
+  "description": "get the fuck out of my way O_o",
+  "content_scripts": [
+    {
+      "matches": ["https://ead.ipleiria.pt/2024-25/my/courses.php"],
+      "js": ["content.js"]
+    }
+  ]
+}
